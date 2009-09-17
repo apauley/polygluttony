@@ -1,7 +1,7 @@
-// Solution by Etienne Labuschagne
+// Java solution by Etienne Labuschagne
 // Edited by me to fit in with the other examples
 
-public class SumOfNeighbours {
+public class SumOfPairs {
     public static int[] sumPairs(int[] a) {
 	int[] newArray = new int[a.length-1];
 

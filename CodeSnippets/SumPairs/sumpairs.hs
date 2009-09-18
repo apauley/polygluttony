@@ -1,4 +1,2 @@
-{- Haskell solution by Danie Roux -}
-
-let x = [1, 2, 3, 4, 5]
-zipWith (+) x (tail x)
+a = [1, 2, 3, 4, 5]
+main = print (zipWith (+) a (tail a))

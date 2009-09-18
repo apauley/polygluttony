@@ -1,5 +1,7 @@
-// Scala solution by Julian Exenberger
-// http://dotneverland.blogspot.com/2009/09/quick-sample-of-lists-and-tuples-in.html
+/**
+Scala solution by Julian Exenberger
+http://dotneverland.blogspot.com/2009/09/quick-sample-of-lists-and-tuples-in.html
+*/
 
 object SumPairs extends Application {
 

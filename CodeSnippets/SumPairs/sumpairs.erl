@@ -1,3 +1,5 @@
+%% Erlang solution by Danie Roux
+
 -module(sumpairs).
 -export([sumpairs/1]).
 

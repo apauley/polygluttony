@@ -1,0 +1,19 @@
+#!/bin/bash
+
+USAGE="${0} <interpreter> <sourcefile>"
+
+if [ ${#} -lt 2 ]; then
+   echo ${USAGE}
+   exit 1
+fi
+
+INTERPRETER=${1}
+FILENAME=${2}
+
+if ["`${INTERPRETER} ${FILENAME}`" = "`cat ${FILENAME}`"]; then
+   echo 'mooi'
+fi
+
+#$ test "`python myself.py`" = "`python myself.py|python`"; echo $?
+#$ test "`python myself.py`" = "`python myself.py|python|python`"; echo $?
+
